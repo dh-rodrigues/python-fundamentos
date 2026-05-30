@@ -1,0 +1,10 @@
+#Peça para digitar algo e verifique as informações do que foi digitado
+p = input('Digite algo')
+print('O tipo primitivo do que foi digitado é :', type(p))
+print('É um número?: ' , p.isnumeric)
+print('É alfabético?: ' , p.isalpha)
+print('É alfanumérico?: ' , p.isalnum)
+print('Está em maiúsculas?: ' , p.isupper)
+print('Está em minúsculas?: ' , p.islower)
+print('Está capitalizada?: ' , p.istitle)
+print('Só tem espaços?: ' , p.isspace)
